@@ -9,6 +9,7 @@
 ## Contents
 
 - [Training Frameworks](#training-frameworks)
+- [End-to-End Training & Inference](#end-to-end-training--inference)
 - [Inference Frameworks](#inference-frameworks)
 - [Distributed Training](#distributed-training)
 - [Fine-Tuning & PEFT](#fine-tuning--peft)
@@ -46,6 +47,28 @@
 | [Fairscale](https://github.com/facebookresearch/fairscale) | ![Stars](https://img.shields.io/github/stars/facebookresearch/fairscale) | PyTorch extensions for high-performance training |
 | [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) | ![Stars](https://img.shields.io/github/stars/NVIDIA/Megatron-LM) | Large-scale transformer training |
 | [ColossalAI](https://github.com/hpcaitech/ColossalAI) | ![Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI) | Large-scale model training system |
+
+---
+
+## End-to-End Training & Inference
+
+### End-to-End Fine-Tuning
+
+| Framework | Stars | Description |
+|-----------|-------|-------------|
+| [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) | ![Stars](https://img.shields.io/github/stars/axolotl-ai-cloud/axolotl) | YAML-driven LLM fine-tuning toolkit |
+| [LlamaFactory](https://github.com/hiyouga/LlamaFactory) | ![Stars](https://img.shields.io/github/stars/hiyouga/LlamaFactory) | Unified efficient fine-tuning of 100+ LLMs |
+| [TRL](https://github.com/huggingface/trl) | ![Stars](https://img.shields.io/github/stars/huggingface/trl) | Train language models with RLHF and DPO |
+| [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeed) | ![Stars](https://img.shields.io/github/stars/microsoft/DeepSpeed) | Easy-to-use RLHF training pipeline |
+
+### End-to-End Inference
+
+| Framework | Stars | Description |
+|-----------|-------|-------------|
+| [vLLM](https://github.com/vllm-project/vllm) | ![Stars](https://img.shields.io/github/stars/vllm-project/vllm) | High-throughput LLM inference engine |
+| [Ollama](https://github.com/ollama/ollama) | ![Stars](https://img.shields.io/github/stars/ollama/ollama) | Run LLMs locally |
+| [SGLang](https://github.com/sgl-project/sglang) | ![Stars](https://img.shields.io/github/stars/sgl-project/sglang) | High-performance serving framework for LLMs |
+| [Text Generation Inference](https://github.com/huggingface/text-generation-inference) | ![Stars](https://img.shields.io/github/stars/huggingface/text-generation-inference) | Hugging Face's production-ready inference server |
 
 ---
 
