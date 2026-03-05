@@ -39,7 +39,7 @@
 |-----------|-------|-------------|
 | [Accelerate](https://github.com/huggingface/accelerate) | ![Stars](https://img.shields.io/github/stars/huggingface/accelerate) | Easy distributed training in PyTorch |
 | [Lightning](https://github.com/Lightning-AI/pytorch-lightning) | ![Stars](https://img.shields.io/github/stars/Lightning-AI/pytorch-lightning) | Deep learning framework for scalable training |
-| [DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | ![Stars](https://img.shields.io/github/stars/deepspeedai/DeepSpeed) | Deep learning optimization library |
+| [DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | ![Stars](https://img.shields.io/github/stars/deepspeedai/DeepSpeed) | Deep learning optimization and RLHF training |
 | [Fairscale](https://github.com/facebookresearch/fairscale) | ![Stars](https://img.shields.io/github/stars/facebookresearch/fairscale) | PyTorch extensions for high-performance training |
 
 ---
@@ -56,6 +56,10 @@
 | [LightLLM](https://github.com/ModelTC/LightLLM) | ![Stars](https://img.shields.io/github/stars/ModelTC/LightLLM) | Lightweight LLM inference framework |
 | [llama.cpp](https://github.com/ggerganov/llama.cpp) | ![Stars](https://img.shields.io/github/stars/ggerganov/llama.cpp) | LLM inference in C/C++ |
 | [Ollama](https://github.com/ollama/ollama) | ![Stars](https://img.shields.io/github/stars/ollama/ollama) | Run LLMs locally |
+| [ktransformers](https://github.com/kvcache-ai/ktransformers) | ![Stars](https://img.shields.io/github/stars/kvcache-ai/ktransformers) | Flexible framework for heterogeneous LLM inference optimizations |
+| [GPUSstack](https://github.com/gpustack/gpustack) | ![Stars](https://img.shields.io/github/stars/gpustack/gpustack) | Performance-optimized AI inference on GPUs |
+| [JetStream](https://github.com/AI-Hypercomputer/JetStream) | ![Stars](https://img.shields.io/github/stars/AI-Hypercomputer/JetStream) | Throughput-optimized engine for LLM inference on XLA devices |
+| [NanoLLM](https://github.com/dusty-nv/NanoLLM) | ![Stars](https://img.shields.io/github/stars/dusty-nv/NanoLLM) | Optimized local inference with quantization and vision models |
 
 ### Local & Edge Inference
 
@@ -85,6 +89,26 @@
 
 ---
 
+## Fine-Tuning & PEFT
+
+### Parameter-Efficient Fine-Tuning
+
+| Framework | Stars | Description |
+|-----------|-------|-------------|
+| [PEFT](https://github.com/huggingface/peft) | ![Stars](https://img.shields.io/github/stars/huggingface/peft) | State-of-the-art parameter-efficient fine-tuning |
+| [LlamaFactory](https://github.com/hiyouga/LlamaFactory) | ![Stars](https://img.shields.io/github/stars/hiyouga/LlamaFactory) | Unified efficient fine-tuning of 100+ LLMs |
+| [xTuring](https://github.com/stochasticai/xTuring) | ![Stars](https://img.shields.io/github/stars/stochasticai/xTuring) | Build, personalize and control your own LLMs |
+| [Unsloth](https://github.com/unslothai/unsloth) | ![Stars](https://img.shields.io/github/stars/unslothai/unsloth) | Memory-efficient fine-tuning (2x faster, 70% less memory) |
+
+### RLHF & Alignment
+
+| Framework | Stars | Description |
+|-----------|-------|-------------|
+| [TRL](https://github.com/huggingface/trl) | ![Stars](https://img.shields.io/github/stars/huggingface/trl) | Train language models with RLHF and DPO |
+| [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeed) | ![Stars](https://img.shields.io/github/stars/microsoft/DeepSpeed) | Easy-to-use RLHF training pipeline |
+
+---
+
 ## Model Compression & Quantization
 
 ### Quantization Tools
@@ -95,6 +119,7 @@
 | [AWQ](https://github.com/mit-han-lab/awq) | ![Stars](https://img.shields.io/github/stars/mit-han-lab/awq) | Activation-aware weight quantization |
 | [GPTQ](https://github.com/IST-DASLab/gptq) | ![Stars](https://img.shields.io/github/stars/IST-DASLab/gptq) | GPT post-training quantization |
 | [GGML](https://github.com/ggerganov/ggml) | ![Stars](https://img.shields.io/github/stars/ggerganov/ggml) | Tensor library for ML |
+| [exllamav2](https://github.com/turboderp-org/exllamav2) | ![Stars](https://img.shields.io/github/stars/turboderp-org/exllamav2) | Optimized quantization for running LLMs on consumer GPUs |
 
 ### Compression Frameworks
 
