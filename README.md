@@ -63,7 +63,6 @@
 |-----------|-------|-------------|
 | [LM Studio](https://github.com/lmstudio-ai/lmstudio) | ![Stars](https://img.shields.io/github/stars/lmstudio-ai/lmstudio) | Discover and run local LLMs |
 | [IPEX-LLM](https://github.com/intel/ipex-llm) | ![Stars](https://img.shields.io/github/stars/intel/ipex-llm) | Accelerate LLM inference on Intel hardware |
-| [llama.cpp](https://github.com/ggerganov/llama.cpp) | ![Stars](https://img.shields.io/github/stars/ggerganov/llama.cpp) | Pure C++ LLM inference |
 
 ---
 
