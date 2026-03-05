@@ -67,6 +67,14 @@
 |-----------|-------|-------------|
 | [LM Studio](https://github.com/lmstudio-ai/lmstudio) | ![Stars](https://img.shields.io/github/stars/lmstudio-ai/lmstudio) | Discover and run local LLMs |
 | [IPEX-LLM](https://github.com/intel/ipex-llm) | ![Stars](https://img.shields.io/github/stars/intel/ipex-llm) | Accelerate LLM inference on Intel hardware |
+| [vLLM-MLX](https://github.com/waybarrios/vllm-mlx) | ![Stars](https://img.shields.io/github/stars/waybarrios/vllm-mlx) | OpenAI-compatible LLM server for Apple Silicon |
+| [o/mlx](https://github.com/jundot/omlx) | ![Stars](https://img.shields.io/github/stars/jundot/omlx) | LLM inference server with continuous batching for Apple Silicon |
+
+### Multi-LoRA Serving
+
+| Framework | Stars | Description |
+|-----------|-------|-------------|
+| [LoRAX](https://github.com/predibase/lorax) | ![Stars](https://img.shields.io/github/stars/predibase/lorax) | Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs |
 
 ---
 
