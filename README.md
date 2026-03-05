@@ -11,9 +11,12 @@
 - [Training Frameworks](#training-frameworks)
 - [Inference Frameworks](#inference-frameworks)
 - [Distributed Training](#distributed-training)
+- [Fine-Tuning & PEFT](#fine-tuning--peft)
 - [Model Compression & Quantization](#model-compression--quantization)
 - [Data Processing](#data-processing)
+- [RAG & Vector Search](#rag--vector-search)
 - [Evaluation & Benchmarking](#evaluation--benchmarking)
+- [MLOps & Platform](#mlops--platform)
 - [Deployment & Serving](#deployment--serving)
 - [Monitoring & Observability](#monitoring--observability)
 - [Learning Resources](#learning-resources)
@@ -41,6 +44,8 @@
 | [Lightning](https://github.com/Lightning-AI/pytorch-lightning) | ![Stars](https://img.shields.io/github/stars/Lightning-AI/pytorch-lightning) | Deep learning framework for scalable training |
 | [DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | ![Stars](https://img.shields.io/github/stars/deepspeedai/DeepSpeed) | Deep learning optimization and RLHF training |
 | [Fairscale](https://github.com/facebookresearch/fairscale) | ![Stars](https://img.shields.io/github/stars/facebookresearch/fairscale) | PyTorch extensions for high-performance training |
+| [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) | ![Stars](https://img.shields.io/github/stars/NVIDIA/Megatron-LM) | Large-scale transformer training |
+| [ColossalAI](https://github.com/hpcaitech/ColossalAI) | ![Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI) | Large-scale model training system |
 
 ---
 
@@ -107,6 +112,8 @@
 | [LlamaFactory](https://github.com/hiyouga/LlamaFactory) | ![Stars](https://img.shields.io/github/stars/hiyouga/LlamaFactory) | Unified efficient fine-tuning of 100+ LLMs |
 | [xTuring](https://github.com/stochasticai/xTuring) | ![Stars](https://img.shields.io/github/stars/stochasticai/xTuring) | Build, personalize and control your own LLMs |
 | [Unsloth](https://github.com/unslothai/unsloth) | ![Stars](https://img.shields.io/github/stars/unslothai/unsloth) | Memory-efficient fine-tuning (2x faster, 70% less memory) |
+| [ArcticTraining](https://github.com/snowflakedb/ArcticTraining) | ![Stars](https://img.shields.io/github/stars/snowflakedb/ArcticTraining) | Snowflake's LLM post-training framework |
+| [SteptronOss](https://github.com/stepfun-ai/SteptronOss) | ![Stars](https://img.shields.io/github/stars/stepfun-ai/SteptronOss) | Lightweight AI-native training framework for LLMs |
 
 ### RLHF & Alignment
 
@@ -136,6 +143,7 @@
 | [NNCF](https://github.com/openvinotoolkit/nncf) | ![Stars](https://img.shields.io/github/stars/openvinotoolkit/nncf) | Neural network compression framework |
 | [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | ![Stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM) | NVIDIA's LLM inference optimization |
 | [Optimum](https://github.com/huggingface/optimum) | ![Stars](https://img.shields.io/github/stars/huggingface/optimum) | Optimization tools for transformers |
+| [Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer) | ![Stars](https://img.shields.io/github/stars/NVIDIA/Model-Optimizer) | Unified SOTA model optimization techniques (quantization, pruning, distillation) |
 
 ---
 
@@ -152,6 +160,31 @@
 
 ---
 
+## RAG & Vector Search
+
+### RAG Frameworks
+
+| Framework | Stars | Description |
+|-----------|-------|-------------|
+| [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG) | ![Stars](https://img.shields.io/github/stars/Marker-Inc-Korea/AutoRAG) | Open-Source RAG evaluation & optimization framework |
+| [RAGLAB](https://github.com/fate-ubw/RAGLAB) | ![Stars](https://img.shields.io/github/stars/fate-ubw/RAGLAB) | Modular research-oriented RAG framework |
+| [cognita](https://github.com/truefoundry/cognita) | ![Stars](https://img.shields.io/github/stars/truefoundry/cognita) | Modular RAG framework for production |
+| [canopy](https://github.com/pinecone-io/canopy) | ![Stars](https://img.shields.io/github/stars/pinecone-io/canopy) | RAG framework powered by Pinecone |
+
+### Vector Databases
+
+| Framework | Stars | Description |
+|-----------|-------|-------------|
+| [Milvus](https://github.com/milvus-io/milvus) | ![Stars](https://img.shields.io/github/stars/milvus-io/milvus) | Open-source vector database for AI |
+| [Qdrant](https://github.com/qdrant/qdrant) | ![Stars](https://img.shields.io/github/stars/qdrant/qdrant) | Vector similarity search engine |
+| [Weaviate](https://github.com/weaviate/weaviate) | ![Stars](https://img.shields.io/github/stars/weaviate/weaviate) | Open source vector database |
+| [Chroma](https://github.com/chroma-core/chroma) | ![Stars](https://img.shields.io/github/stars/chroma-core/chroma) | AI-native embeddings database |
+| [Infinity](https://github.com/infiniflow/infinity) | ![Stars](https://img.shields.io/github/stars/infiniflow/infinity) | AI-native database for LLM applications |
+| [Kuzu](https://github.com/kuzudb/kuzu) | ![Stars](https://img.shields.io/github/stars/kuzudb/kuzu) | Embedded graph DB with vector search |
+| [sqlite-vector](https://github.com/sqliteai/sqlite-vector) | ![Stars](https://img.shields.io/github/stars/sqliteai/sqlite-vector) | SQLite vector search extension |
+
+---
+
 ## Evaluation & Benchmarking
 
 ### Evaluation Frameworks
@@ -161,6 +194,19 @@
 | [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) | ![Stars](https://img.shields.io/github/stars/EleutherAI/lm-evaluation-harness) | LLM evaluation framework |
 | [promptfoo](https://github.com/promptfoo/promptfoo) | ![Stars](https://img.shields.io/github/stars/promptfoo/promptfoo) | Test prompts and LLM outputs |
 | [LangChain](https://github.com/langchain-ai/langchain) | ![Stars](https://img.shields.io/github/stars/langchain-ai/langchain) | LLM application framework |
+| [Awesome-LLM-Eval](https://github.com/onejune2018/Awesome-LLM-Eval) | ![Stars](https://img.shields.io/github/stars/onejune2018/Awesome-LLM-Eval) | Curated list of LLM evaluation tools and benchmarks |
+
+---
+
+## MLOps & Platform
+
+### LLM Platforms
+
+| Framework | Stars | Description |
+|-----------|-------|-------------|
+| [StarWhale](https://github.com/star-whale/starwhale) | ![Stars](https://img.shields.io/github/stars/star-whale/starwhale) | MLOps/LLMOps platform |
+| [Flyte](https://github.com/flyteorg/flyte) | ![Stars](https://img.shields.io/github/stars/flyteorg/flyte) | Scalable workflow orchestration platform |
+| [Ray](https://github.com/ray-project/ray) | ![Stars](https://img.shields.io/github/stars/ray-project/ray) | Distributed computing for AI |
 
 ---
 
