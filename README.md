@@ -13,6 +13,7 @@
 - [End-to-End Training & Inference](#end-to-end-training--inference)
 - [Inference Frameworks](#inference-frameworks)
 - [Distributed Training](#distributed-training)
+- [Hardware Acceleration](#hardware-acceleration)
 - [Fine-Tuning & PEFT](#fine-tuning--peft)
 - [Model Compression & Quantization](#model-compression--quantization)
 - [Data Engineering](#data-engineering)
@@ -145,6 +146,15 @@
 |-----------|-------|-------------|
 | [FlashAttention](https://github.com/Dao-AILab/flash-attention) | ![Stars](https://img.shields.io/github/stars/Dao-AILab/flash-attention) | Fast and memory-efficient attention |
 | [xFormers](https://github.com/facebookresearch/xformers) | ![Stars](https://img.shields.io/github/stars/facebookresearch/xformers) | Modular components for transformers |
+| [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeed) | ![Stars](https://img.shields.io/github/stars/microsoft/DeepSpeed) | Easy-to-use RLHF training pipeline |
+
+### Hardware Acceleration
+
+| Framework | Stars | Description |
+|-----------|-------|-------------|
+| [IPEX-LLM](https://github.com/intel/ipex-llm) | ![Stars](https://img.shields.io/github/stars/intel/ipex-llm) | LLM inference acceleration on Intel GPUs/CPU |
+| [OpenVINO](https://github.com/openvinotoolkit/openvino) | ![Stars](https://img.shields.io/github/stars/openvinotoolkit/openvino) | Intel hardware inference optimization toolkit |
+| [vLLM](https://github.com/vllm-project/vllm) | ![Stars](https://img.shields.io/github/stars/vllm-project/vllm) | High-throughput LLM inference with PagedAttention |
 
 ---
 
